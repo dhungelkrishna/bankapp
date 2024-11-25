@@ -95,4 +95,15 @@ public class BankController {
         return "redirect:/dashboard";
     }
 
+    @GetMapping("/policy")
+    public String getPolicy() {
+        return "policy";
+    }
+    
+    @GetMapping("/tos") //terms of service
+    public String getTos() {
+        return "tos";
+    }
+    
+
 }
